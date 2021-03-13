@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>W3.CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Page content -->
+<div id="home" class="w3-content" style="max-width:1564px">
+
+<!-- Contact Section -->
+<div id="contact" class="w3-container w3-padding-top-32">
+
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Bize Yazın!</h3>
+<p>Sorularınız için bize ulaşabilirsiniz. Kısa süre içinde dönüş yapacağız.</p>
+
+<form action="/action_page.php" target="_blank">
+<input class="w3-input w3-border" type="text" placeholder="İsim" required name="İsim">
+<input class="w3-input w3-section w3-border" type="text" placeholder="Mail" required name="Mail">
+<input class="w3-input w3-section w3-border" type="text" placeholder="Konu" required name="Konu">
+<input class="w3-input w3-section w3-border" type="text" placeholder="Açıklama" required name="Açıklama">
+<button class="w3-button w3-black w3-section" type="submit">
+<i class="fa fa-paper-plane"></i> GÖNDER
+</button>
+</form>
+
+
+</div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
